@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Custom Portfolio",
   "main": "index.js",
-  "homepage": "https://dntworryjayshere.github.io/",
+  "homepage": "https://dntworryjayshere.github.io/MyPortfolio/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
