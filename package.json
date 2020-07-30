@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DntworryJayshere/dntworryjayshere.github.io.git"
+    "url": "git+https://github.com/DntworryJayshere/MyPortfolio"
   },
   "author": "Jay Rodriguez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DntworryJayshere/dntworryjayshere.github.io/issues"
+    "url": "https://github.com/DntworryJayshere/MyPortfolio/issues"
   },
   "dependencies": {
     "node-sass": "^4.14.1"
