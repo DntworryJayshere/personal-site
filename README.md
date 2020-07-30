@@ -1,2 +1,2 @@
 # MyPortfolio
-Personal portfolio to showcase work
+my personal site
