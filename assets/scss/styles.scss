@@ -77,7 +77,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
-  display: block; // borra los espacios en blanco
+  display: block;
 }
 
 /*===== CLASS CSS ===== */
@@ -226,11 +226,20 @@ img {
   }
 
   &__img {
+    // position: absolute;
+    // right: 0;
+    // padding-right: 1.5rem;
+    // bottom: 10%;
+    // border-radius: 5rem;
     position: absolute;
     right: 0;
-    padding-right: 1.5rem;
-    bottom: 10%;
+    bottom: 0;
     width: 295px;
+  }
+  &__img {
+    @media screen and (max-width: 525px) {
+      display: none;
+    }
   }
 }
 
@@ -309,17 +318,8 @@ img {
     border-radius: 0.5rem;
     z-index: var(--z-back);
   }
-  &__html {
-    width: 95%;
-  }
-  &__css {
-    width: 85%;
-  }
-  &__js {
-    width: 65%;
-  }
-  &__ux {
-    width: 85%;
+  &__underline {
+    width: 100%;
   }
   &__img {
     border-radius: 0.5rem;

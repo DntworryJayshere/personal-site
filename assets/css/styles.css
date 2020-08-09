@@ -191,9 +191,11 @@ img {
   .home__img {
     position: absolute;
     right: 0;
-    padding-right: 1.5rem;
-    bottom: 10%;
+    bottom: 0;
     width: 295px; }
+  @media screen and (max-width: 525px) {
+    .home__img {
+      display: none; } }
 
 /*BUTTONS*/
 .button {
@@ -251,14 +253,8 @@ img {
   height: 0.25rem;
   border-radius: 0.5rem;
   z-index: var(--z-back); }
-.skills__html {
-  width: 95%; }
-.skills__css {
-  width: 85%; }
-.skills__js {
-  width: 65%; }
-.skills__ux {
-  width: 85%; }
+.skills__underline {
+  width: 100%; }
 .skills__img {
   border-radius: 0.5rem; }
 
