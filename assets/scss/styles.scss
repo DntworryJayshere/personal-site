@@ -103,7 +103,7 @@ img {
 }
 .section {
   padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 /*===== LAYOUT =====*/
@@ -226,11 +226,6 @@ img {
   }
 
   &__img {
-    // position: absolute;
-    // right: 0;
-    // padding-right: 1.5rem;
-    // bottom: 10%;
-    // border-radius: 5rem;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -325,6 +320,7 @@ img {
     border-radius: 0.5rem;
   }
 }
+
 /* ===== WORK =====*/
 .work {
   &__container {
@@ -344,29 +340,6 @@ img {
         transform: scale(1.1);
       }
     }
-  }
-}
-
-/* ===== CONTACT =====*/
-.contact {
-  &__input {
-    width: 100%;
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-semi);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border: 1.5px solid var(--second-color);
-    outline: none;
-    margin-bottom: var(--mb-4);
-  }
-  &__button {
-    display: block;
-    border: none;
-    outline: none;
-    font-size: var(--normal-font-size);
-    cursor: pointer;
-    margin-left: auto;
-    margin-top: 0;
   }
 }
 
@@ -401,7 +374,6 @@ img {
     padding-top: 4rem;
     padding-bottom: 3rem;
   }
-
   .section-title {
     margin-bottom: var(--mb-6);
 
@@ -458,6 +430,7 @@ img {
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
       text-align: initial;
+      padding-bottom: 5%;
     }
     &__img {
       & img {
@@ -481,14 +454,6 @@ img {
       text-align: initial;
     }
   }
-  .contact {
-    &__form {
-      width: 360px;
-    }
-    &__container {
-      justify-items: center;
-    }
-  }
 }
 @media screen and(min-width: 1024px) {
   .bd-grid {
@@ -498,6 +463,14 @@ img {
   .home {
     &__img {
       right: 10%;
+    }
+  }
+  .skills {
+    &__img {
+      margin-left: 2rem;
+      width: 457px;
+      bottom: 20%;
+      border-radius: 0.5rem;
     }
   }
 }

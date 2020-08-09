@@ -92,7 +92,7 @@ img {
 
 .section {
   padding-top: 3rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 3rem; }
 
 /*===== LAYOUT =====*/
 .bd-grid {
@@ -272,25 +272,6 @@ img {
     .work__img img:hover {
       transform: scale(1.1); }
 
-/* ===== CONTACT =====*/
-.contact__input {
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4); }
-.contact__button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
-  margin-top: 0; }
-
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
@@ -357,7 +338,8 @@ img {
   .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    text-align: initial; }
+    text-align: initial;
+    padding-bottom: 5%; }
   .about__img img {
     width: 300px; }
 
@@ -371,16 +353,17 @@ img {
     column-gap: 2rem;
     grid-template-columns: repeat(2, 2fr);
     align-items: center;
-    text-align: initial; }
-
-  .contact__form {
-    width: 360px; }
-  .contact__container {
-    justify-items: center; } }
+    text-align: initial; } }
 @media screen and (min-width: 1024px) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto; }
 
   .home__img {
-    right: 10%; } }
+    right: 10%; }
+
+  .skills__img {
+    margin-left: 2rem;
+    width: 457px;
+    bottom: 20%;
+    border-radius: 0.5rem; } }
