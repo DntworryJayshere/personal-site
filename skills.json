@@ -1,0 +1,32 @@
+{
+  "mySkills": {
+    "Programming Languages": ["HTML", "CSS", "JavaScript"],
+    "Frameworks/Libraries": [
+      "Node.js",
+      "jQuery",
+      "Express",
+      "Bootstrap",
+      "Handlebars",
+      "React.js",
+      "Sequelize",
+      "Mongoose"
+    ],
+    "Databases": ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
+    "Software/Platforms": [
+      "Alteryx",
+      "Tableau",
+      "Postman",
+      "GitHub",
+      "Heroku",
+      "G-Suite",
+      "Slack",
+      "Discord"
+    ],
+    "Attributes": [
+      "Project Planning",
+      "Project Management",
+      "Client Communications",
+      "Remote Work"
+    ]
+  }
+}
