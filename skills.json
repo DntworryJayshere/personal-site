@@ -1,32 +1,42 @@
 {
-  "mySkills": {
-    "Programming Languages": ["HTML", "CSS", "JavaScript"],
-    "Frameworks/Libraries": [
-      "Node.js",
-      "jQuery",
-      "Express",
-      "Bootstrap",
-      "Handlebars",
-      "React.js",
-      "Sequelize",
-      "Mongoose"
-    ],
-    "Databases": ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
-    "Software/Platforms": [
-      "Alteryx",
-      "Tableau",
-      "Postman",
-      "GitHub",
-      "Heroku",
-      "G-Suite",
-      "Slack",
-      "Discord"
-    ],
-    "Attributes": [
-      "Project Planning",
-      "Project Management",
-      "Client Communications",
-      "Remote Work"
-    ]
-  }
+	"mySkills": {
+		"Programming Languages": ["CSS", "HTML", "JavaScript", "SQL", "YAML"],
+		"Frameworks/Libraries": [
+			"Bootstrap",
+			"Express",
+			"jQuery",
+			"Mongoose",
+			"Node.js",
+			"Next.js",
+			"React.js",
+			"Redux"
+		],
+		"Databases": [
+			"AWS S3/RDS/DocumentDB/DynamoDB",
+			"Firebase",
+			"MongoDB",
+			"MySQL",
+			"PostgreSQL"
+		],
+		"Software/Platforms": [
+			"Alteryx",
+			"AWS IAM/SES/EC2/Elastic Beanstalk",
+			"Discord",
+			"Docker",
+			"G-Suite",
+			"Git",
+			"Heroku",
+			"Kubernetes",
+			"Nginx",
+			"Postman",
+			"Slack",
+			"Tableau"
+		],
+		"Attributes": [
+			"Project Planning",
+			"Project Management",
+			"Client Communications",
+			"Remote Work"
+		]
+	}
 }
