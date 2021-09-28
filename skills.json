@@ -1,42 +1,22 @@
 {
-	"mySkills": {
-		"Programming Languages": ["CSS", "HTML", "JavaScript", "SQL", "YAML"],
-		"Frameworks/Libraries": [
-			"Bootstrap",
-			"Express",
-			"jQuery",
-			"Mongoose",
-			"Node.js",
-			"Next.js",
-			"React.js",
-			"Redux"
-		],
-		"Databases": [
-			"AWS S3/RDS/DocumentDB/DynamoDB",
-			"Firebase",
-			"MongoDB",
-			"MySQL",
-			"PostgreSQL"
-		],
-		"Software/Platforms": [
-			"Alteryx",
-			"AWS IAM/SES/EC2/Elastic Beanstalk",
-			"Discord",
-			"Docker",
-			"G-Suite",
-			"Git",
-			"Heroku",
-			"Kubernetes",
-			"Nginx",
-			"Postman",
-			"Slack",
-			"Tableau"
-		],
-		"Attributes": [
-			"Project Planning",
-			"Project Management",
-			"Client Communications",
-			"Remote Work"
-		]
-	}
+  "mySkills": {
+    "Operating Systems": [
+      "Ubuntu",
+      "Amazon Linux 2",
+      "Windows",
+      "Raspbian-lite"
+    ],
+    "Cloud": ["Amazon Web Serivces", "Digital Ocean", "Self Hosting"],
+    "Source Ctrl/Mgmt": ["Gitlab", "GitHub", "GitBash"],
+    "Dev/Tools": ["Kubernetes", "k3s", "Docker", "Splunk", "Postman"],
+    "Languages": ["JavaScript", "Bash", "TypeScript", "SQL", "HTML5", "CSS3"],
+    "Frameworks/Libraries": ["Node.js", "Next.js", "React.js", "Redux"],
+    "Databases": [
+      "AWS S3/RDS/DocumentDB/DynamoDB",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "Other/Tools": ["Nginx", "VS Code", "Alteryx", "Discord", "Slack"]
+  }
 }

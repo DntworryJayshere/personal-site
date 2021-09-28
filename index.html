@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <!-- =====BOX ICONS===== -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+   
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
 
     <title>Jay Rodriguez</title>
   </head>
@@ -22,9 +25,6 @@
           <ul class="nav__list">
             <li class="nav__item">
               <a href="#home" class="nav__link active">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">Gear</a>
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link">About</a>
@@ -53,7 +53,7 @@
             I'm <span class="home__title-color">Jay Rodriguez</span>
           </h1>
           <h2 class="home__subtitle">
-            Platform/Software Engineer
+            DevOps/Software Engineer
           </h2>
 
           <a
@@ -97,32 +97,6 @@
         </div>
       </section>
 
-      <!--===== GEAR =====-->
-      <section class="gear section" id="gear">
-        <h2 class="section-title">Gear</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/about2.jpg" alt="aboutImg" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle">What I Run</h2>
-            <p style="text-indent: 5%" class="about__text">
-              Dell g3: 32GB ram, 1 TB samsungSSD.
-              OS: Ubuntu
-            </p>
-            <p style="text-indent: 5%" class="about__text">
-              Pi Cluster:
-              Master Node: Raspberry Pi-4, 4 GB, 240 GB SSD.
-              Worker Node01: Raspberry Pi-4, 4 GB, 128 GB SSD.
-              Worker Node02: Raspberry Pi-3, 1 GB, 64 GB MicroSD.
-                OS: Raspi OS-lite
-            </p>          
-          </div>
-        </div>
-      </section>
-
       <!--===== ABOUT =====-->
       <section class="about section" id="about">
         <h2 class="section-title">About</h2>
@@ -133,15 +107,16 @@
           </div>
 
           <div>
-            <h2 class="about__subtitle">A Nontraditional Path</h2>
+            <h2 class="about__subtitle">Want to learn a Secret?</h2>
             <p style="text-indent: 5%" class="about__text">
-              Jay is a recent graduate from the UPenn full-stack coding boot camp, an intensive 24-week-long boot camp dedicated to designing and building full-stack web applications. Prior to this, he worked as the Lead Data Analyst in supporting the strategy & the vision of PwC’s global digital transformation program “Digitise the Network(DTN),” where he was fortunate enough to have gained in-depth experience in project planning and management on a worldwide scale. His day-to-day involved gathering and analyzing information to help DTN leadership prioritize critical issues and streamline decision-making across all program pillars. During his time as an Assurance Associate within the asset & wealth management sector, Jay laid the foundation of his career and heavily focused his efforts around the data analytics/automation software Alteryx.
-              <!-- <a style="color: #4070f4" href="assets/resume/jay-m-rodriguez_PersonalStatement.pdf" target="_blank" download>Personal Statement</a>. -->
+              This site is being hosted through my raspberry-pi K3s cluster out of my home network!
             </p>
             <p style="text-indent: 5%" class="about__text">
-              Jay is currently focusing his efforts around AWS, Docker, and Kubernetes to develop, build, and maintain highly available applications within highly durable pipelines.  
+              Before spending the past ~month resolving the intricacies of a raspberry pi cluster & self-hosting, I spent six weeks preparing for and passing the Certified Kubernetes Administrator exam. Another six weeks before that, I built a few microservices applications locally & on AWS EKS, all while learning Docker and Kubernetes. Mix in a few more months of making MERN applications, preparing for and passing the AWS Certified Developer certification, hosting said applications on AWS, and it will bring you back to the start of 2021.
             </p>
-            <!-- To read more about my my story, check out my -->            
+            <p style="text-indent: 5%" class="about__text">
+              As for 2020, I attended and graduated from the UPenn full-stack coding boot camp. I learn quickly, pivot often, self-review constantly and make one hell of a leader. I just need a chance for my perseverance to pay off.
+            </p>
           </div>
         </div>
       </section>
@@ -149,18 +124,12 @@
       <!--===== SKILLS =====-->
       <section class="skills section" id="skills">
         <h2 class="section-title">Skills</h2>
-
         <div class="skills__container bd-grid">
           <div>
-            <h2 class="skills__subtitle">Professional Skills</h2>
-            <p style="text-indent: 5%" class="skills__text">
-              Jay gathers his skills from an ever-expanding toolbox. Most recently added is developing MERN applications and deploying infrastructure as code through Docker and Kubernetes CI/CD pipelines. His previous roles allow him to draw upon data analytic, data visualization, project planning, project management, and auditing skills.
-            </P>
-
             <div class="skills__data">
               <div class="skills__names">
                 <i class="bx bxs-check-circle skills__icon"></i>
-                <span class="skills__name">Platform & Software Engineering</span>
+                <span class="skills__name">DevOps & Software Engineering</span>
               </div>
               <div class="skills__bar skills__underline"></div>
             </div>
@@ -181,7 +150,7 @@
           </div>
           
           <div>
-            <img src="assets/img/skills-may.PNG" alt="skillImg" class="skills__img" />
+            <img src="assets/img/skills-sep.png" alt="skillImg" class="skills__img" />
           </div>
         </div>
       </section>
@@ -287,7 +256,8 @@
 
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>
-
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
   </body>
